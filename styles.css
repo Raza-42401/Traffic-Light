@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(assets/Pictures/trafic\ police\ logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-family: Arial, sans-serif;
+  }
+  
+  .traffic-light {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .light {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #555;
+    transition: background-color 0.3s;
+  }
+  
+  .light.red.active {
+    background-color: red;
+  }
+  
+  .light.orange.active {
+    background-color: orangered;
+  }
+  
+  .light.green.active {
+    background-color: green;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
